@@ -1,0 +1,40 @@
+// Loading libraries
+// Noramlize.css saved in a scss file
+@import "libs/normalize";
+// Collectioin of mixins
+@import "libs/bourbon/_bourbon";
+
+// Loading mixins
+// @import "base/mixins/"
+
+// Loading base/generic classes
+@import "base/_palette";
+@import "base/_variables";
+@import "base/_images";
+@import "base/_reuse";
+@import "base/_root";
+@import "base/_typography";
+
+// First loading error & loading template classes
+@import "templates/_loading";
+@import "templates/_error";
+
+//Loading all UI elements
+@import "elements/_buttons";
+@import "elements/_icons";
+@import "elements/_links";
+@import "elements/_input-fields";
+
+// Loading components
+@import "components/_search-bar";
+@import "components/_nav";
+@import "components/_menu";
+@import "components/_sidebar";
+
+// Loading templates specific classes
+@import "templates/_alert-msg";
+@import "templates/_forms";
+
+// Loading page specific classes
+@import "pages/_404.scss";
+@import "pages/_home-page.scss";

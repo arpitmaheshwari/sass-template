@@ -1,0 +1,8 @@
+.input-text{
+    width: 100%;
+    border: 2px outset white;
+}
+.input-container{
+    @extend .relative;
+    @extend .no-overflow;
+}
