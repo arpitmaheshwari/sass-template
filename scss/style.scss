@@ -1,9 +1,5 @@
 // Loading libraries
-// Collectioin of mixins
-@import "libs/bourbon/_bourbon",
-
-// Loading mixins
-// "base/mixins/"
+// "libs/"
 
 // Loading base/generic classes
 "base/_palette",
@@ -13,10 +9,6 @@
 "base/_reuse",
 "base/_root",
 "base/_typography",
-
-// First loading error & loading template classes
-"templates/_loading",
-"templates/_error",
 
 //Loading all UI elements
 "elements/_buttons",
@@ -29,6 +21,10 @@
 "components/_nav",
 "components/_menu",
 "components/_sidebar",
+
+// First loading error & loading template classes
+"templates/_loading",
+"templates/_error",
 
 // Loading templates specific classes
 "templates/_alert-msg",
